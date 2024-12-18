@@ -33,7 +33,7 @@ const NavLink = styled(Link)`
   font-size: 24px;
   width: 50%;
   text-decoration: ${(props) => (props.active ? "underline" : "none")};
-  text-underline-offset: 5px; /* Çizginin yazıdan uzaklığını ayarlar */
+  text-underline-offset: 5px;
 
   @media (max-width: 768px) {
     font-size: 12px;
@@ -42,7 +42,7 @@ const NavLink = styled(Link)`
 `;
 
 export default function Header() {
-  const location = useLocation(); // Şu anki URL yolunu kontrol etmek için
+  const location = useLocation();
 
   return (
     <HeaderContainer>

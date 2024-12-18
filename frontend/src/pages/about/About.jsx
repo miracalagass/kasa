@@ -3,8 +3,8 @@ import styled from 'styled-components';
 import Banner from '../../components/Banner';
 
 const Container = styled.div`
-    max-width: 1200px; /* Maksimum genişlik */
-    margin: 0 auto; /* Ortalamak için */   
+    max-width: 1200px;
+    margin: 0 auto;   
 `;
 
 export default function About() {

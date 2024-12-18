@@ -43,7 +43,7 @@ export default function Home() {
     fetch("http://localhost:8080/api/properties")
       .then(response => response.json())
       .then(data => setProperties(data))
-      .catch(error => console.error("Veri çekme hatası:", error));
+      .catch(error => console.error("Erreur d'extraction des données:", error));
   }, []);
 
   return (

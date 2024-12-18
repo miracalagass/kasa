@@ -12,7 +12,7 @@ const NotFoundContainer = styled.div`
 `;
 
 const ErrorCode = styled.h1`
-  font-size: 10rem; /* Tasarıma göre daha büyük font boyutu */
+  font-size: 10rem;
   margin: 0;
   @media (max-width: 768px) {
     font-size: 5rem;

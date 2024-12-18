@@ -9,7 +9,7 @@ const SlideshowContainer = styled.div`
   border-radius: 10px;
   .counter {
     position: absolute;
-    bottom: 10px; /* Slider'ın altına yerleştirmek için */
+    bottom: 10px;
     left: 50%;
     transform: translateX(-50%);
     font-size: 18px;
